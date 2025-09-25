@@ -32,11 +32,13 @@ cd ..
 ### 2. Environment Configuration
 
 1. Copy the example environment file:
+
 ```bash
 cp .env.example .env
 ```
 
 2. Update `.env` with your configuration:
+
 ```
 COMPOSIO_API_KEY=your_composio_api_key_here
 SESSION_SECRET=your_secure_session_secret_here
@@ -54,11 +56,13 @@ PORT=3001
 ### 4. Running the Application
 
 Start both server and client:
+
 ```bash
 npm run dev
 ```
 
 Or run them separately:
+
 ```bash
 # Terminal 1 - Start server
 npm run server
@@ -68,6 +72,7 @@ npm run client
 ```
 
 The application will be available at:
+
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:3001
 
@@ -130,3 +135,5 @@ The application will be available at:
 ## License
 
 MIT License
+
+hi
